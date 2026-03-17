@@ -6,7 +6,7 @@
 > projects, self-hosting paths, dashboards, messaging integrations, memory
 > systems, security tooling, and OpenClaw-compatible open source projects.
 
-Reviewed on `2026-03-09`.
+Reviewed on `2026-03-17`.
 
 OpenClaw has already lived through multiple names and overlapping communities:
 `OpenClaw -> Moltbot -> Clawdbot`. This list keeps useful repositories from
@@ -44,6 +44,7 @@ that full lineage instead of pretending only the latest name matters.
 
 ## Category index
 
+- [Recently added](#recently-added)
 - [Official Ecosystem](#official-ecosystem)
 - [Install, Deploy & Operate](#install-deploy--operate)
 - [Clients, Dashboards & UI](#clients-dashboards--ui)
@@ -52,6 +53,15 @@ that full lineage instead of pretending only the latest name matters.
 - [Learning Resources](#learning-resources)
 - [Adjacent Alternatives](#adjacent-alternatives)
 - [Contributing](#contributing)
+
+## Recently added
+
+- [openclaw/openclaw-windows-node](https://github.com/openclaw/openclaw-windows-node) - Official Windows companion suite with tray app and PowerToys command palette support.
+- [xmanrui/OpenClaw-bot-review](https://github.com/xmanrui/OpenClaw-bot-review) - High-signal dashboard for bots, models, sessions, and gateway health.
+- [yuga-hashimoto/openclaw-assistant](https://github.com/yuga-hashimoto/openclaw-assistant) - Self-hosted Android voice assistant built specifically for OpenClaw.
+- [centminmod/explain-openclaw](https://github.com/centminmod/explain-openclaw) - Integrated beginner, architecture, deployment, and security guide.
+- [jgamblin/OpenClawCVEs](https://github.com/jgamblin/OpenClawCVEs) - Automated tracker for OpenClaw security advisories and CVEs.
+- [markus-lassfolk/openclaw-hybrid-memory](https://github.com/markus-lassfolk/openclaw-hybrid-memory) - Durable hybrid memory extension with structured recall and search.
 
 ## Official Ecosystem
 
@@ -66,6 +76,11 @@ that full lineage instead of pretending only the latest name matters.
 - [openclaw/acpx](https://github.com/openclaw/acpx) - Headless CLI for ACP sessions.
 - [openclaw/clawdinators](https://github.com/openclaw/clawdinators) - Infra and host modules for OpenClaw environments.
 - [openclaw/casa](https://github.com/openclaw/casa) - Official home-base exposure project for the Clawdbot lineage.
+- [openclaw/openclaw-windows-node](https://github.com/openclaw/openclaw-windows-node) - Official Windows tray app, shared gateway library, and PowerToys command palette extension.
+- [openclaw/clawgo](https://github.com/openclaw/clawgo) - Official minimal Go node for Raspberry Pi and Linux voice/event workflows.
+- [openclaw/multipass](https://github.com/openclaw/multipass) - Official CLI for deterministic testing of OpenClaw messaging channels.
+- [openclaw/trust](https://github.com/openclaw/trust) - Official threat model and security program data for OpenClaw.
+- [openclaw/caclawphony](https://github.com/openclaw/caclawphony) - Official maintainer pipeline for PR triage, review, and merge automation.
 - [openclaw/community](https://github.com/openclaw/community) - Official community policies and server docs.
 
 ## Install, Deploy & Operate
@@ -88,6 +103,7 @@ that full lineage instead of pretending only the latest name matters.
 - [marshallrichards/ClawPhone](https://github.com/marshallrichards/ClawPhone) - Smartphone-focused tweaks for OpenClaw.
 - [kentcdodds/flying-jarvis](https://github.com/kentcdodds/flying-jarvis) - Fly.io deployment variant from the Clawdbot era.
 - [sebastianvkl/pizero-openclaw](https://github.com/sebastianvkl/pizero-openclaw) - Raspberry Pi Zero deployment path.
+- [anomixer/openclaw-setup](https://github.com/anomixer/openclaw-setup) - Daily-updated OpenClaw plus Ollama setup guide with Windows-native and WSL2 paths.
 
 ### Security, monitoring, and backup
 
@@ -101,6 +117,7 @@ that full lineage instead of pretending only the latest name matters.
 - [bokonon23/clawdbot-cost-monitor](https://github.com/bokonon23/clawdbot-cost-monitor) - Real-time usage and cost visibility for Clawdbot deployments.
 - [TheSethRose/Clawdbot-Security-Check](https://github.com/TheSethRose/Clawdbot-Security-Check) - Self-audit security knowledge skill.
 - [vignesh07/clawdbot-formal-models](https://github.com/vignesh07/clawdbot-formal-models) - Formal security modeling for the Clawdbot lineage.
+- [jgamblin/OpenClawCVEs](https://github.com/jgamblin/OpenClawCVEs) - Hourly tracker for OpenClaw advisories, CVEs, and publication state.
 - [merciagents/riphook](https://github.com/merciagents/riphook) - Deterministic security layer compatible with OpenClaw workflows.
 
 ## Clients, Dashboards & UI
@@ -114,6 +131,9 @@ that full lineage instead of pretending only the latest name matters.
 - [Peiiii/openclaw-manager](https://github.com/Peiiii/openclaw-manager) - GUI-based installation and configuration tool for OpenClaw.
 - [ValueCell-ai/ClawX](https://github.com/ValueCell-ai/ClawX) - Desktop GUI for OpenClaw agents.
 - [ibelick/webclaw](https://github.com/ibelick/webclaw) - Fast web client for OpenClaw.
+- [xmanrui/OpenClaw-bot-review](https://github.com/xmanrui/OpenClaw-bot-review) - Local dashboard for bots, agents, models, sessions, and token usage.
+- [yuga-hashimoto/openclaw-assistant](https://github.com/yuga-hashimoto/openclaw-assistant) - Android voice assistant with wake word, system integration, and Wear OS support.
+- [xigpz/openclaw-console](https://github.com/xigpz/openclaw-console) - Rust plus React visual admin console for models, skills, and gateway settings.
 - [magimetal/moltbot-menubar](https://github.com/magimetal/moltbot-menubar) - macOS menu bar controller for launch, stop, and restart.
 - [leveragedrobot/raycast-moltbot](https://github.com/leveragedrobot/raycast-moltbot) - Raycast launcher extension for the legacy lineage.
 - [askmojo/moltcraft](https://github.com/askmojo/moltcraft) - Isometric pixel-art dashboard for Moltbot-style agents.
@@ -160,6 +180,7 @@ that full lineage instead of pretending only the latest name matters.
 - [Dataojitori/nocturne_memory](https://github.com/Dataojitori/nocturne_memory) - Rollbackable, structured memory server positioned as an OpenClaw replacement layer.
 - [rockywuest/bookend-skill](https://github.com/rockywuest/bookend-skill) - Structured memory skill for retaining long-running Clawdbot context.
 - [48Nauts-Operator/moltbot-memory-local](https://github.com/48Nauts-Operator/moltbot-memory-local) - Privacy-first local memory plugin with SQLite and local embeddings.
+- [markus-lassfolk/openclaw-hybrid-memory](https://github.com/markus-lassfolk/openclaw-hybrid-memory) - Hybrid memory extension with SQLite, vector recall, TTL decay, and auto-capture.
 - [astonysh/OpenClaw-DeepReeder](https://github.com/astonysh/OpenClaw-DeepReeder) - Web and content ingestion into long-term memory.
 - [ZeroPointRepo/youtube-skills](https://github.com/ZeroPointRepo/youtube-skills) - Transcript and search skills useful for OpenClaw knowledge ingestion.
 
@@ -179,6 +200,7 @@ that full lineage instead of pretending only the latest name matters.
 - [davepoon/buildwithclaude](https://github.com/davepoon/buildwithclaude) - Cross-ecosystem marketplace of skills and plugins that supports OpenClaw.
 - [runkids/skillshare](https://github.com/runkids/skillshare) - Cross-tool skill sharing and sync, including OpenClaw.
 - [farion1231/cc-switch](https://github.com/farion1231/cc-switch) - Desktop assistant launcher for multiple coding agents, including OpenClaw.
+- [itshaungmu/AgentHub](https://github.com/itshaungmu/AgentHub) - Open-source marketplace for packaging, publishing, and installing OpenClaw-style agents.
 - [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) - OpenClaw-compatible cowork shell.
 - [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) - IM bot platform often compared against OpenClaw for channel coverage.
 - [langbot-app/LangBot](https://github.com/langbot-app/LangBot) - Multi-platform bot platform with OpenClaw lineage references.
@@ -202,7 +224,10 @@ that full lineage instead of pretending only the latest name matters.
 - [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) - Large curated index of OpenClaw skills.
 - [SamurAIGPT/awesome-openclaw](https://github.com/SamurAIGPT/awesome-openclaw) - Broad general-purpose awesome list.
 - [vincentkoc/awesome-openclaw](https://github.com/vincentkoc/awesome-openclaw) - Multilingual awesome list with broader taxonomy.
+- [centminmod/explain-openclaw](https://github.com/centminmod/explain-openclaw) - Integrated beginner, technical, deployment, and security documentation set.
+- [xschen-beb/awesome-openclaw-projects](https://github.com/xschen-beb/awesome-openclaw-projects) - Structured ecosystem index with metrics-focused tables.
 - [1186258278/OpenClawChineseTranslation](https://github.com/1186258278/OpenClawChineseTranslation) - Chinese-localized OpenClaw, Clawdbot, and Moltbot distribution with tutorials and troubleshooting notes.
+- [L-LesterYu/OpenClaw-hot-skills-zh](https://github.com/L-LesterYu/OpenClaw-hot-skills-zh) - Chinese translations of notable ClawHub skills with usage guidance.
 - [AlexAnys/awesome-openclaw-usecases-zh](https://github.com/AlexAnys/awesome-openclaw-usecases-zh) - Chinese use-case collection with local-market focus.
 - [clawdbot-ai/awesome-openclaw-skills-zh](https://github.com/clawdbot-ai/awesome-openclaw-skills-zh) - Chinese skill index.
 - [xianyu110/awesome-openclaw-tutorial](https://github.com/xianyu110/awesome-openclaw-tutorial) - Chinese tutorial collection.
