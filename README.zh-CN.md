@@ -4,7 +4,7 @@
 
 > 基于首页链接重组，按优先级与使用场景标签归类。
 
-更新于 `2026-03-24`。
+更新于 `2026-05-30`。
 
 标签说明：
 - `🎖`：官方核心链路
@@ -27,9 +27,25 @@
 ## 快速导航
 
 - [openclaw 官方仓库](https://github.com/openclaw/openclaw) — 官方源码与生态入口
+- [OpenClaw 官方 Blog](https://openclaw.ai/blog) — 发布背景、安全路线图、模型与运行时说明
+- [OpenClaw Releases](https://github.com/openclaw/openclaw/releases) — 官方版本说明与发布验证链接
+- [The Daily Claw](https://thedailyclaw.com/) — 社区发布 / 新闻摘要，提供 RSS 与 JSON feed
 - 历史主站 站点入口 — 已按你的要求移除 历史主站 域名直链
 - 历史主站 备用入口 — 已按你的要求移除 历史主站 域名直链
 - 历史主站 更多入口（`/kx`）— 已按你的要求移除 历史主站 域名直链
+
+## 最新文章信号（2026-05）
+
+- [OpenClaw Is Getting Faster, Smaller, and Easier to Trust](https://openclaw.ai/blog/lighter-core-sharper-claws) — 官方 5 月 28 日发布分析，聚焦更快 agent turn、更小包体、依赖归属与可信度建设。🎖📚🆓
+- [Where OpenClaw Security Is Heading](https://openclaw.ai/blog/where-openclaw-security-is-heading) — 官方 5 月 15 日安全路线图，覆盖文件系统边界、网络出口、ClawHub 信任证据、审批与静态分析。🎖📚🆓
+- [OpenAI Models in OpenClaw, Done Right](https://openclaw.ai/blog/openai-models-in-openclaw-done-right) — 官方 5 月 14 日说明，介绍 OpenAI agent turn 默认走 Codex app-server 运行时路径。🎖🧠📚🆓
+- [OpenClaw 2026.5.26 release notes](https://github.com/openclaw/openclaw/releases/tag/v2026.5.26) — 本次检索确认的最新 stable 发布说明，适合跟踪 transcripts、通道可靠性、voice/Talk、安全边界与可观测性变化。🎖🚀📚🆓
+- [The Daily Claw](https://thedailyclaw.com/) — 社区摘要站，已收录 5 月 29 日 beta 发布并提供 feed 形态的持续监控入口。🌱💬📚🆓
+- [OpenClaw Ecosystem 2026](https://presenc.ai/research/openclaw-ecosystem-2026) — 5 月生态快照，覆盖增长指标、通道、赞助方与 skill registry 对生态发现的影响。🌱👥📚🆓
+- [Security of OpenClaw Agents](https://arxiv.org/abs/2605.25435) — 5 月 25 日论文，综述 OpenClaw agent 架构、攻击面与防御机制。⚠️📚🆓
+- [Security, Privacy, and Ethical Risks in OpenClaw](https://arxiv.org/abs/2605.23330) — 5 月 22 日论文，聚焦隐私、可追溯性、插件、工具调用与外部服务风险。⚠️📚🆓
+- [OpenClawBench](https://arxiv.org/abs/2605.29253) — 5 月 28 日基准，衡量真实 OpenClaw 执行轨迹中的过程侧异常。🌱🧠📚🆓
+- [UGREEN NAS OpenClaw app coverage](https://www.macotakara.jp/news/entry-51114.html) — 5 月 19 日 NAS App Center 部署信息，同时提醒 root Docker 容器和敏感目录挂载风险。🌱🚀🧰🆓
 
 ## 1）官方核心
 
