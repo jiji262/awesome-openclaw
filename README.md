@@ -56,6 +56,7 @@ Legend for every item:
 - [Control Center](https://github.com/TianyiDataScience/openclaw-control-center) — GitHub - TianyiDataScience/openclaw-control-center: Turn OpenClaw from a black box into a local control center you can see, trust, and control. · GitHub 🌱🚀🆓
 - [ClawBench](https://clawbench.net/) — Claw Bench Leaderboard 🌱🧠🆓
 - [Claw Watcher](https://clawwatcher.com/) — Clawwatcher | AI Agent Monitoring for OpenClaw 🌱🧰🆓
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) — Free open-source monitoring dashboard for OpenClaw agents: token usage, session tracking, 7-day trends, multi-model support. Vue 3 + ECharts 🌱🧰🆘
 - [ClawManager](https://clawmanager.ai/) — ClawManager - Setup, Deploy &amp; Manage AI Agents for Free 🌱🧰🆓
 
 ## 2) Core Ecosystem and Recommended Entries
