@@ -123,6 +123,8 @@ Legend for every item:
 - [Chinese Use Cases](https://github.com/AlexAnys/awesome-openclaw-usecases-zh)  — Chinese Use Cases service homepage ✨📚🆓
 - [OpenClaw Cases](https://openclawcases.zeabur.app/)  — OplacLaw Use Cases 🌱📚🆓
 
+- [OpenClaw Gateway Policy Source Review](https://personalagentbench.com/openclaw-security/) — Personal Agent Bench / Zentor review of gateway policy and security configuration at a pinned source revision; static source analysis, not runtime or exploit testing. Vendor-authored. 🌱📚🆓
+
 ## 5) Common AI Assistants
 
 - [Qianwen](https://www.qianwen.com/)  — Qianwen service homepage 🌱🧠🆓
